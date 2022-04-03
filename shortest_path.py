@@ -51,7 +51,7 @@ n=int(n)
 l=[]
 arr=[[-1]*(n) for i in range(m)]
 for i in range(m):
-    x=[int(i) for i in input().split()]3
+    x=[int(i) for i in input().split()]
     l.append(x)
 print(find_memo(l,m,n,0,0,arr))
 print(find_dp(l,m,n,arr))
