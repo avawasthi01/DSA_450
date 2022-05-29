@@ -1,7 +1,10 @@
+#apprach -- the part which is giving negative sum will not benefit the max sum,so ignore the sub array giving negative sum.
+#so I made max = -infinity,then start calculating sum of elements,until the sum is positive,if the sum if neg then,reseting the sum,after comparing it with
+#with the current max.
+
 class Solution:
-    ##Complete this function
-    #Function to find the sum of contiguous subarray with maximum sum.
-    
+   
+   
     def maxSubArraySum(self,arr,N):
         sum=0
         max1=-999999999
